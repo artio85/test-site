@@ -1,0 +1,45 @@
+header, .content-wrapper {
+    width: 760px;
+    margin: 0 auto;
+    clear: both;
+    display: table;
+}
+
+.header-left {
+	width: 550px;
+}
+
+.header-right {
+	width: 210px;
+}
+
+.header-left, .header-right {
+    display: table-cell;
+}
+
+.menu, .user-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li, .user-menu ul li {
+    display: inline;
+}
+
+.menu li a, .user-menu ul li a, .user-info a {
+	text-decoration: none;
+	color: #555;
+}
+
+.menu li a:hover, .user-menu ul li a:hover, .user-info a:hover {
+	text-decoration: underline;
+	color: #000;
+}
+
+.slider {
+    background-image: url(../images/slide-1.jpg);
+    background-size: cover;
+    display: block;
+    height: 300px;
+    
+}
